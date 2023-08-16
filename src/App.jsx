@@ -1,33 +1,52 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React, { Component } from 'react';
+// Style
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+// Ruta Nav
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Nav from './components/Nav';
+// Component
+
+// Paginas
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Router>        
+
+        <header>
+          {/* Navegador */}
+          <Nav />
+        </header>
+
+        <main className='flex-shrink-0'>
+          <Routes>       
+            {/* Home */}
+            {/* <Route path="/" element={<Home />} />*/}
+            {/* Servicios                */}
+            {/* <Route path="/orientacion" element={<Servicios />} /> */}
+            {/* <Route path="/evaluacion" element={<Servicios />} /> */}
+            {/* Terapia */}
+            {/* <Route path="/psicologia" element={<Terapia />} /> */}
+            {/* <Route path="/psicopedagogia" element={<Terapia />} /> */}
+            {/* <Route path="/terapiaOcupacional" element={<Terapia />} /> */}
+            {/* <Route path="/estimulacionTemprana" element={<Terapia />} /> */}
+            {/* Talleres */}
+            {/* <Route path="/talleres" element={<Talleres />} /> */}
+          </Routes>
+
+        </main>
+
+        <footer>
+          {/* Footer */}
+          {/* <Footer /> */}
+        </footer>
+
+      </Router>
     </>
   )
 }
