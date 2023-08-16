@@ -10,6 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.3.1",
+<<<<<<< HEAD
+    "dotenv": "^16.3.1",
+=======
+    "bootstrap-icons": "^1.10.5",
+>>>>>>> 7feca3ce04ab3c4587923e038efe4b01258153b9
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0"
