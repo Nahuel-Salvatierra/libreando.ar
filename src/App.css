@@ -19,17 +19,7 @@
 
 
 /* Footer */
-.icono-whatsapp {
-  color: #25D366;
-}
 
-.icono-instagram {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  border-radius: 100%;
-}
 /* Componente Redes Sociales */
 
 .container-icon {
@@ -38,10 +28,12 @@
   right: 20px;
 }
 
-.redes a, .icon-mensaje {
+.redes a,
+.icon-mensaje {
   display: block;
   text-decoration: none;
-  background-color: #f19035; 
+  background-color: #f19035;
+  color: white;
   width: 55px;
   height: 55px;
   line-height: 55px;
@@ -49,22 +41,40 @@
   border-radius: 50%;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 1s ease;
+  font-size: 30px;
 }
 
 .redes a:hover {
   background: white;
+  /* color: #f19035; */
 }
+
+.icono-whatsapp:hover {
+  color: #25D366;
+}
+
+.redes:hover .icono-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .redes a {
   margin-bottom: 7px;
+  color: white;
 }
 
 .redes {
-  bottom: 70px; /* Ajusta esta distancia según tus necesidades */
+  bottom: 70px;
+  /* Ajusta esta distancia según tus necesidades */
   right: 0;
   opacity: 1;
-  transform: translateY(100%); /* Comienza oculto debajo */
-  pointer-events: none; /* Deshabilita la interacción en elementos ocultos */
+  transform: translateY(100%);
+  /* Comienza oculto debajo */
+  pointer-events: none;
+  /* Deshabilita la interacción en elementos ocultos */
   transition: transform .6s ease, opacity .6s ease;
 }
 
@@ -75,8 +85,8 @@
 }
 
 .hide {
-  transform: translateY(0); /* Oculta al nivel del icono de mensaje */
+  transform: translateY(0);
+  /* Oculta al nivel del icono de mensaje */
   opacity: 0;
   pointer-events: none;
 }
-
