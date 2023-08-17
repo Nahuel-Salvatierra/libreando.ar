@@ -7,7 +7,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 // Ruta Nav
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
-import { Instagram } from './components/instagramFeed/instagramFeed';
+// import { Instagram } from './components/instagramFeed/instagramFeed';
 // Component
 
 // Paginas
@@ -39,7 +39,8 @@ function App() {
             {/* Talleres */}
             {/* <Route path="/talleres" element={<Talleres />} /> */}
           </Routes>
-          <Instagram/>
+          
+          {/* <Instagram/> */}
 
         </main>
 
