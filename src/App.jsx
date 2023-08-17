@@ -7,7 +7,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 // Ruta Nav
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
-// import BotonRedesSociales from './components/BotonRedesSociales';
+import BotonRedesSociales from './components/BotonRedesSociales';
 // Component
 // import { Instagram } from './components/instagramFeed/instagramFeed';
 
@@ -41,7 +41,7 @@ function App() {
             {/* <Route path="/talleres" element={<Talleres />} /> */}
           </Routes>
           
-          {/* {/* <Instagram/> */} */}
+          {/* <Instagram/> */}
 
         </main>
 

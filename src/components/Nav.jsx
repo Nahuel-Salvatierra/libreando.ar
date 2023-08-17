@@ -21,7 +21,7 @@ function Nav() {
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             {/* Ruta Servicios */}
                             <li className="nav-item dropdown">
-                                <Link to="#" className="nav-link dropdown-toggle" id="navbarDropdownBlog" role="button"
+                                <Link to="#" className="nav-link dropdown-toggle text-white" id="navbarDropdownBlog" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">Servicios</Link>
                                 <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
                                     <li><Link to="/orientacion" className="dropdown-item">Orientación a padres</Link></li>
@@ -30,7 +30,7 @@ function Nav() {
                             </li>
                             {/* Ruta Terapias */}
                             <li className="nav-item dropdown">
-                                <Link to="#" className="nav-link dropdown-toggle" id="navbarDropdownBlog" role="button"
+                                <Link to="#" className="nav-link dropdown-toggle text-white" id="navbarDropdownBlog" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">Terapia</Link>
                                 <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
                                     <li><Link to="/psicologia" className="dropdown-item">Psicología</Link></li>
@@ -41,7 +41,7 @@ function Nav() {
                             </li>
 
                             <li className="nav-item">
-                                <Link to="/talleres" className="nav-link">Talleres</Link>
+                                <Link to="/talleres" className="nav-link text-white">Talleres</Link>
                             </li>
                         </ul>
                     </div>
