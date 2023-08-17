@@ -3,6 +3,11 @@
   overflow-x: hidden;
 }
 
+/* Colores Generales */
+.bg-naranja {
+  background-color: #FC6B02;
+}
+
 /* Componente Nav */
 
 .logo-libre-ando {
@@ -10,6 +15,68 @@
   height: 60px;
 }
 
-.bg-naranja {
-  background-color: #FC6B02;
+
+
+
+/* Footer */
+.icono-whatsapp {
+  color: #25D366;
 }
+
+.icono-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 100%;
+}
+/* Componente Redes Sociales */
+
+.container-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.redes a, .icon-mensaje {
+  display: block;
+  text-decoration: none;
+  background-color: #f19035; 
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 1s ease;
+}
+
+.redes a:hover {
+  background: white;
+}
+
+.redes a {
+  margin-bottom: 7px;
+}
+
+.redes {
+  bottom: 70px; /* Ajusta esta distancia según tus necesidades */
+  right: 0;
+  opacity: 1;
+  transform: translateY(100%); /* Comienza oculto debajo */
+  pointer-events: none; /* Deshabilita la interacción en elementos ocultos */
+  transition: transform .6s ease, opacity .6s ease;
+}
+
+.show {
+  transform: translateY(-15%);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hide {
+  transform: translateY(0); /* Oculta al nivel del icono de mensaje */
+  opacity: 0;
+  pointer-events: none;
+}
+
