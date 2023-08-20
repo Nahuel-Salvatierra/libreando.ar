@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import env from "react-dotenv";
 
-export function Instagram() {
+function Instagram() {
     var url = "https://graph.instagram.com/me/media";
     var fields = "?fields=media_type,media_url,caption,permalink&access_token=";
     var access_token = import.meta.env.VITE_REACT_APP_INSTAGRAM_TOKEN
@@ -59,3 +59,5 @@ export function Instagram() {
         </div>
     );
 }
+
+export default Instagram

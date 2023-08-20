@@ -16,7 +16,8 @@ export function Politicas() {
             esta Política de Privacidad puede cambiar con el tiempo o ser
             actualizada por lo que le recomendamos y enfatizamos revisar
             continuamente esta página para asegurarse que está de acuerdo con
-            dichos cambios.<br></br>
+            dichos cambios.
+            <br></br>
             <br></br>
             <h3>
                 <strong>Información que es recogida</strong>
