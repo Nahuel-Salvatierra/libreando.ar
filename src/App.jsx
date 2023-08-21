@@ -12,6 +12,7 @@ import BotonRedesSociales from './components/BotonRedesSociales';
 // import { Instagram } from './components/instagramFeed/instagramFeed';
 import Terapia from './pages/terapia/Terapia';
 import Servicios from './pages/servicios/Servicios';
+import Home from '../src/pages/home/Home'
 
 // Paginas
 
@@ -30,7 +31,7 @@ function App() {
         <main className='flex-shrink-0'>
           <Routes>       
             {/* Home */}
-            {/* <Route path="/" element={<Home />} />*/}
+            <Route path="/" element={<Home />} />
             {/* Servicios                */}
             <Route path="/orientacion" element={<Servicios /> } />
             <Route path="/evaluacion" element={<Servicios />} />
