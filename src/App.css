@@ -5,7 +5,11 @@
 
 /* Colores Generales */
 .bg-naranja {
-  background-color: #FC6B02;
+  background-color: #FFAA5C;
+}
+
+.bg-naranja-claro {
+  background-color: #FFC48D;
 }
 
 /* Componente Nav */
@@ -78,13 +82,13 @@
   transition: transform .6s ease, opacity .6s ease;
 }
 
-.show {
+.showRedes {
   transform: translateY(-15%);
   opacity: 1;
   pointer-events: auto;
 }
 
-.hide {
+.hideRedes {
   transform: translateY(0);
   /* Oculta al nivel del icono de mensaje */
   opacity: 0;

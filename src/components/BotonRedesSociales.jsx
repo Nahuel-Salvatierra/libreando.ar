@@ -9,7 +9,7 @@ function BotonRedesSociales() {
 
   return (
     <div className='container-icon'>
-      <div className={`redes ${showRedes ? 'show' : 'hide'}`}>
+      <div className={`redes ${showRedes ? 'showRedes' : 'hideRedes'}`}>
         <a href="https://wa.me/541165776749" target="_blank" className='icono-whatsapp'>
           <i className="bi bi-whatsapp "></i>
         </a>

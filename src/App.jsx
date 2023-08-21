@@ -10,6 +10,8 @@ import Nav from './components/Nav';
 import BotonRedesSociales from './components/BotonRedesSociales';
 // Component
 // import { Instagram } from './components/instagramFeed/instagramFeed';
+import Terapia from './pages/terapia/Terapia';
+import Servicios from './pages/servicios/Servicios';
 
 // Paginas
 
@@ -30,19 +32,18 @@ function App() {
             {/* Home */}
             {/* <Route path="/" element={<Home />} />*/}
             {/* Servicios                */}
-            {/* <Route path="/orientacion" element={<Servicios />} /> */}
-            {/* <Route path="/evaluacion" element={<Servicios />} /> */}
+            <Route path="/orientacion" element={<Servicios /> } />
+            <Route path="/evaluacion" element={<Servicios />} />
             {/* Terapia */}
-            {/* <Route path="/psicologia" element={<Terapia />} /> */}
-            {/* <Route path="/psicopedagogia" element={<Terapia />} /> */}
-            {/* <Route path="/terapiaOcupacional" element={<Terapia />} /> */}
-            {/* <Route path="/estimulacionTemprana" element={<Terapia />} /> */}
+            <Route path="/psicologia" element={<Terapia />} />
+            <Route path="/psicopedagogia" element={<Terapia />} />
+            <Route path="/terapiaOcupacional" element={<Terapia />} />
+            <Route path="/estimulacionTemprana" element={<Terapia />} />
             {/* Talleres */}
             {/* <Route path="/talleres" element={<Talleres />} /> */}
           </Routes>
           
           {/* <Instagram/> */}
-
         </main>
 
         <footer>
