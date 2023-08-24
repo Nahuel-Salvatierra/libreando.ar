@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
 import BotonRedesSociales from './components/BotonRedesSociales';
 // Component
-// import { Instagram } from './components/instagramFeed/instagramFeed';
+import Instagram  from './components/instagramFeed/instagramFeed';
 import Terapia from './pages/terapia/Terapia';
 import Servicios from './pages/servicios/Servicios';
 import Home from '../src/pages/home/Home'
@@ -44,7 +44,7 @@ function App() {
             {/* <Route path="/talleres" element={<Talleres />} /> */}
           </Routes>
           
-          {/* <Instagram/> */}
+          <Instagram/>
         </main>
 
         <footer>
