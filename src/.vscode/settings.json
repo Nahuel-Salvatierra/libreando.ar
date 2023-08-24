@@ -5,7 +5,10 @@
         "estimulacion",
         "evaluacion",
         "orientacion",
+        "Presentacion",
         "psicologia",
-        "psicopedagogia"
+        "psicopedagogia",
+        "Wechsler",
+        "WISC"
     ]
 }

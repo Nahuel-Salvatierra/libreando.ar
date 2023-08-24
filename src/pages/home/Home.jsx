@@ -1,11 +1,15 @@
 import React from "react"
 import './home.css'
 import Presentacion from "./secciones/Presentacion"
+// import { Instagram } from '../../components/instagramFeed/instagramFeed';
 
-function Home (){
+function Home() {
     return (
         <>
-            <Presentacion/>
+            <Presentacion />
+            {/* <div className="mt-5">
+                <Instagram />
+            </div> */}
         </>
     )
 }
