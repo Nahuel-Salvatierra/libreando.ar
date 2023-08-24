@@ -10,7 +10,7 @@ function Instagram() {
 
     const [data, setData] = useState([]);
     useEffect(() => {
-            setData(db.data);
+        setData(db.data);
     }, []);
 
     return (
@@ -35,7 +35,24 @@ function Instagram() {
                                 </p>
                             </div>
                         </div>
-                    ) : null
+                    ) : (
+                        <div className="card col-3">
+                            <iframe
+                                src={objeto.media_url}
+                                className="card-img-top"
+                                alt="..."
+                            />
+                            <div className="card-body row align-items-end">
+                                <strong className="card-title">
+                                    {objeto.nombre}
+                                </strong>
+                                <p className="card-text">
+                                    Modelo: <br></br>
+                                    {objeto.modelo}
+                                </p>
+                            </div>
+                        </div>
+                    )
                 )}
             </a>
         </div>
