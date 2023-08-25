@@ -1,6 +1,5 @@
 import db from "../../db_libreando.json";
 import { useState, useEffect, React } from "react";
-import env from "react-dotenv";
 
 function Instagram() {
     // var url = "https://graph.instagram.com/me/media";
