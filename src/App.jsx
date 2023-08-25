@@ -43,8 +43,6 @@ function App() {
             {/* Talleres */}
             {/* <Route path="/talleres" element={<Talleres />} /> */}
           </Routes>
-          
-          <Instagram/>
         </main>
 
         <footer>
