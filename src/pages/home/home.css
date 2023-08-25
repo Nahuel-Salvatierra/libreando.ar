@@ -41,9 +41,6 @@ video {
     flex-wrap: wrap;
     overflow: hidden;
 }
-.videoContainer:hover {
-    
-}
 
 .videoContainer:hover::before {
     content: "";
