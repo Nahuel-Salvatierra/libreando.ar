@@ -12,7 +12,7 @@ export default()=>{
   } else {
     return defineConfig({
       plugins: [react()],
-      base: '/libreando.ar/'
+      base: 'https://nahuel-salvatierra.github.io/libreando.ar/'
     })
   }
 }
