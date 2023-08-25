@@ -14,46 +14,34 @@ function Instagram() {
 
     return (
         <div className="container">
-            <a className="row gap-3 mt-3 justify-content-center" href="">
+            <div className="row mt-3 justify-content-center" href="">
                 {data.map((objeto) =>
                     objeto.media_type == "IMAGE" ||
                     objeto.media_type == "CAROUSEL_ALBUM" ? (
-                        <div className="card col-3">
+                        <div className="col-4 p-0 imgContainer">
                             <img
                                 src={objeto.media_url}
-                                className="card-img-top"
+                                className=""
                                 alt="..."
                             />
-                            <div className="card-body row align-items-end">
-                                <strong className="card-title">
-                                    {objeto.nombre}
-                                </strong>
-                                <p className="card-text">
-                                    Modelo: <br></br>
-                                    {objeto.modelo}
-                                </p>
+                            <div className="title">
+                                <p className="">{objeto.caption}</p>
                             </div>
                         </div>
                     ) : (
-                        <div className="card col-3">
-                            <iframe
+                        <div className="col-4 p-0 videoContainer">
+                            <video 
                                 src={objeto.media_url}
-                                className="card-img-top"
+                                className="object-fit-cover"
                                 alt="..."
                             />
-                            <div className="card-body row align-items-end">
-                                <strong className="card-title">
-                                    {objeto.nombre}
-                                </strong>
-                                <p className="card-text">
-                                    Modelo: <br></br>
-                                    {objeto.modelo}
-                                </p>
+                            <div className="title">
+                                <p className="">{objeto.caption}</p>
                             </div>
                         </div>
                     )
                 )}
-            </a>
+            </div>
         </div>
     );
 }
