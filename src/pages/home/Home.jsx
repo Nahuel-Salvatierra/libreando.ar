@@ -1,14 +1,93 @@
 import React from "react"
+// Estilos
 import './home.css'
+// Componentes
 import Presentacion from "./secciones/Presentacion"
-import  Instagram from '../../components/instagramFeed/instagramFeed';
+// Imagenes
+import imgPresentacion from "../../imagenes/presentacion-image.jpg";
+import CarouselSwiper from "./secciones/CarouselSwiper";
 
 function Home() {
+
+    const galeriaImg = [
+        {
+            tituloPlantilla: "Galeria // Nuestra Institución",
+            SwiperCarousel: [
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
+            ]
+        },
+        {
+            
+            SwiperCarousel: [
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
+            ]
+        },
+        {
+            
+            SwiperCarousel: [
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
+                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
+            ]
+        },
+    ]
+
+
+
     return (
         <>
-            <Presentacion />
+            {/* Card de Imagenes */}
+            <Presentacion
+                classNameImagenCard={"order-1"}
+                imgCard={imgPresentacion}
+                altImagenCard={"Imagen de Presentación"}
+                classNameDescripcionCard={"order-2"}
+                textoDescripcionCard={
+                    "En LibreAndo, nuestro compromiso es brindar un apoyo integral a las personas, fomentando el bienestar emocional y el desarrollo de habilidades en un ambiente cálido y ameno."
+                }
+            />
+            <Presentacion
+                classNameImagenCard={"order-2"}
+                imgCard={imgPresentacion}
+                altImagenCard={"Imagen de Presentación"}
+                classNameDescripcionCard={"order-1"}
+                textoDescripcionCard={
+                    "En LibreAndo, nuestro compromiso es brindar un apoyo integral a las personas, fomentando el bienestar emocional y el desarrollo de habilidades en un ambiente cálido y ameno."
+                }
+            />
+            <Presentacion
+                classNameImagenCard={"order-1"}
+                imgCard={imgPresentacion}
+                altImagenCard={"Imagen de Presentación"}
+                classNameDescripcionCard={"order-2"}
+                textoDescripcionCard={
+                    "En LibreAndo, nuestro compromiso es brindar un apoyo integral a las personas, fomentando el bienestar emocional y el desarrollo de habilidades en un ambiente cálido y ameno."
+                }
+            />
+
+            {/* Carouser de Imagenes */}
             <div className="mt-5">
-                <Instagram />
+            {galeriaImg.map((carousel, index) => (
+                <CarouselSwiper
+                    key={index}
+                    tituloPlantilla={carousel.tituloPlantilla}
+                    SwiperCarousel={carousel.SwiperCarousel}
+                    classTitulo={carousel.classTitulo}
+                />
+            ))}
             </div>
         </>
     )

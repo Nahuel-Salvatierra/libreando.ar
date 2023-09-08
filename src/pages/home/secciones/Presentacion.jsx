@@ -1,29 +1,26 @@
 import React from "react";
-import imgPresenntacion from "../../../imagenes/presentacion-image.jpg";
+// import imgPresentacion from "../../../imagenes/presentacion-image.jpg";
 
-function Presentacion() {
+function Presentacion({classNameImagenCard, imgCard, altImagenCard, classNameDescripcionCard, textoDescripcionCard}) {
     return (
         <>
             <div className="container d-flex justify-content-center mt-4">
-                <div className="card mb-3 ">
+                <div className="card mb-3 rounded-4">
                     <div className="row g-0 ">
-                        <div className="col-md-6">
+                        <div className={`col-md-6 ${classNameImagenCard}`}>
                             <img
-                                src={imgPresenntacion}
+                                src={imgCard}
                                 className="img-fluid rounded-start"
-                                alt="..."
+                                alt={`${altImagenCard}`}
                             />
                         </div>
-                        <div className="col-md-6">
+                        <div className={`col-md-6 ${classNameDescripcionCard}`}>
                             <div className="card-body">
                                 <h3 className="card-title">
                                     ¡Bienvenidos a LibreAndo!
                                 </h3>
                                 <p className="card-text fs-5  fs-xl-1">
-                                    En LibreAndo, nuestro compromiso es brindar
-                                    un apoyo integral a las personas, fomentando
-                                    el bienestar emocional y el desarrollo de
-                                    habilidades en un ambiente cálido y ameno.
+                                    {textoDescripcionCard}
                                 </p>
                                 <p className="card-text">
                                     <small className="text-body-secondary">
