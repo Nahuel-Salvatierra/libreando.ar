@@ -28,6 +28,15 @@
 
 /* Componente Redes Sociales */
 
+.logoNN{
+  max-width: 16px;
+  max-height: 16px;
+}
+
+.Pblc {
+  font-size: .8rem;
+}
+
 .container-icon {
   position: fixed;
   bottom: 20px;

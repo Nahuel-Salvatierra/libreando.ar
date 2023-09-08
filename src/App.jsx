@@ -14,6 +14,8 @@ import Servicios from './pages/servicios/Servicios';
 import Home from '../src/pages/home/Home'
 import Talleres from './pages/talleres/Talleres';
 import QuienesSomos from './pages/quienesSomos/QuienesSomos';
+import Footer from './components/footer/Footer';
+
 
 // Paginas
 
@@ -46,7 +48,7 @@ function App() {
 
         <footer>
           {/* Footer */}
-          {/* <Footer /> */}
+          <Footer />
           <BotonRedesSociales />
         </footer>
 
