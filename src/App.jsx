@@ -9,10 +9,11 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
 import BotonRedesSociales from './components/BotonRedesSociales';
 // Component
-import Instagram  from './components/instagramFeed/instagramFeed';
 import Terapia from './pages/terapia/Terapia';
 import Servicios from './pages/servicios/Servicios';
 import Home from '../src/pages/home/Home'
+import Talleres from './pages/talleres/Talleres';
+import QuienesSomos from './pages/quienesSomos/QuienesSomos';
 
 // Paginas
 
@@ -33,15 +34,13 @@ function App() {
             {/* Home */}
             <Route path="/" element={<Home />} />
             {/* Servicios                */}
+            <Route path="/terapia" element={<Terapia />} />
+            <Route path="/talleres" element={<Talleres />} />
             <Route path="/orientacion" element={<Servicios /> } />
             <Route path="/evaluacion" element={<Servicios />} />
-            {/* Terapia */}
-            <Route path="/psicologia" element={<Terapia />} />
-            <Route path="/psicopedagogia" element={<Terapia />} />
-            <Route path="/terapiaOcupacional" element={<Terapia />} />
-            <Route path="/estimulacionTemprana" element={<Terapia />} />
-            {/* Talleres */}
-            {/* <Route path="/talleres" element={<Talleres />} /> */}
+            {/* Quienes Somos */}
+            <Route path="/quienesSomos" element={<QuienesSomos />} />
+          
           </Routes>
         </main>
 
@@ -57,3 +56,8 @@ function App() {
 }
 
 export default App
+
+{/* <Route path="/psicologia" element={<Terapia />} />
+<Route path="/psicopedagogia" element={<Terapia />} />
+<Route path="/terapiaOcupacional" element={<Terapia />} />
+<Route path="/estimulacionTemprana" element={<Terapia />} /> */}

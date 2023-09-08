@@ -18,31 +18,23 @@ function Nav() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
+
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             {/* Ruta Servicios */}
                             <li className="nav-item dropdown">
-                                <Link to="#" className="nav-link dropdown-toggle text-white" id="navbarDropdownBlog" role="button"
+                                <Link to="#" className="nav-link dropdown-toggle text-white pt-1 me-1" id="navbarDropdownBlog" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">Servicios</Link>
                                 <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                    <li><Link to="/terapia" className="dropdown-item">Terapia</Link></li>
+                                    <li><Link to="/talleres" className="dropdown-item">Talleres</Link></li>
                                     <li><Link to="/orientacion" className="dropdown-item">Orientación a padres</Link></li>
                                     <li><Link to="/evaluacion" className="dropdown-item">Evaluación neuro-cognitiva</Link></li>
                                 </ul>
                             </li>
-                            {/* Ruta Terapias */}
-                            <li className="nav-item dropdown">
-                                <Link to="#" className="nav-link dropdown-toggle text-white" id="navbarDropdownBlog" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">Terapia</Link>
-                                <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><Link to="/psicologia" className="dropdown-item">Psicología</Link></li>
-                                    <li><Link to="/psicopedagogia" className="dropdown-item">Psicopedagogía</Link></li>
-                                    <li><Link to="/terapiaOcupacional" className="dropdown-item">Terapia Ocupacional</Link></li>
-                                    <li><Link to="/estimulacionTemprana" className="dropdown-item">Estimulación Temprana</Link></li>
-                                </ul>
-                            </li>
-
-                            <li className="nav-item">
-                                <Link to="/talleres" className="nav-link text-white">Talleres</Link>
-                            </li>
+                            {/* Contacto */}
+                            <Link to="/contacto" className="navbar-brand"> <li className="nav-item">Contacto</li> </Link>
+                            {/* Quienes Somos */}
+                            <Link to="/quienesSomos" className="navbar-brand"> <li className="nav-item">¿Quienes somos?</li> </Link>
                         </ul>
                     </div>
                 </div>
@@ -52,3 +44,9 @@ function Nav() {
 }
 
 export default Nav
+// <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+//     <li><Link to="/psicologia" className="dropdown-item">Psicología</Link></li>
+//     <li><Link to="/psicopedagogia" className="dropdown-item">Psicopedagogía</Link></li>
+//     <li><Link to="/terapiaOcupacional" className="dropdown-item">Terapia Ocupacional</Link></li>
+//     <li><Link to="/estimulacionTemprana" className="dropdown-item">Estimulación Temprana</Link></li>
+// </ul>

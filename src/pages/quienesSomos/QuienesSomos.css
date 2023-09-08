@@ -1,0 +1,7 @@
+.container {
+    --bs-gutter-x: 0rem !important;
+}
+
+.quienesSomos {
+    border-radius: 0 0px 10px 10px;
+}

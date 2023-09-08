@@ -1,7 +1,6 @@
 import React from "react";
-// import imgPresentacion from "../../../imagenes/presentacion-image.jpg";
 
-function Presentacion({classNameImagenCard, imgCard, altImagenCard, classNameDescripcionCard, textoDescripcionCard}) {
+function Presentacion({classNameImagenCard, imgCard, altImagenCard, tituloCard, classNameDescripcionCard, textoDescripcionCard}) {
     return (
         <>
             <div className="container d-flex justify-content-center mt-4">
@@ -17,7 +16,7 @@ function Presentacion({classNameImagenCard, imgCard, altImagenCard, classNameDes
                         <div className={`col-md-6 ${classNameDescripcionCard}`}>
                             <div className="card-body">
                                 <h3 className="card-title">
-                                    ¡Bienvenidos a LibreAndo!
+                                    {tituloCard}
                                 </h3>
                                 <p className="card-text fs-5  fs-xl-1">
                                     {textoDescripcionCard}
