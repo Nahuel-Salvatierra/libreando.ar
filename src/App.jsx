@@ -13,6 +13,8 @@ import Instagram  from './components/instagramFeed/instagramFeed';
 import Terapia from './pages/terapia/Terapia';
 import Servicios from './pages/servicios/Servicios';
 import Home from '../src/pages/home/Home'
+import Footer from './components/footer/Footer';
+
 
 // Paginas
 
@@ -47,7 +49,7 @@ function App() {
 
         <footer>
           {/* Footer */}
-          {/* <Footer /> */}
+          <Footer />
           <BotonRedesSociales />
         </footer>
 
