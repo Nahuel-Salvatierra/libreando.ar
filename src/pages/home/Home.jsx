@@ -2,7 +2,7 @@ import React from "react"
 // Estilos
 import './home.css'
 // Componentes
-import Presentacion from "./secciones/Presentacion"
+import Presentacion from "../../components/Cards"
 // Imagenes
 import imgPresentacion from "../../imagenes/presentacion-image.jpg";
 import CarouselSwiper from "./secciones/CarouselSwiper";
@@ -12,28 +12,6 @@ function Home() {
     const galeriaImg = [
         {
             tituloPlantilla: "Galeria // Nuestra Institución",
-            SwiperCarousel: [
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
-            ]
-        },
-        {
-            
-            SwiperCarousel: [
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
-            ]
-        },
-        {
-            
             SwiperCarousel: [
                 { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
                 { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
@@ -54,16 +32,18 @@ function Home() {
                 classNameImagenCard={"order-1"}
                 imgCard={imgPresentacion}
                 altImagenCard={"Imagen de Presentación"}
+                tituloCard={"¡Bienvenidos a LibreAndo!"}
                 classNameDescripcionCard={"order-2"}
                 textoDescripcionCard={
                     "En LibreAndo, nuestro compromiso es brindar un apoyo integral a las personas, fomentando el bienestar emocional y el desarrollo de habilidades en un ambiente cálido y ameno."
                 }
             />
             <Presentacion
-                classNameImagenCard={"order-2"}
+                classNameImagenCard={"order-1"}
                 imgCard={imgPresentacion}
                 altImagenCard={"Imagen de Presentación"}
-                classNameDescripcionCard={"order-1"}
+                tituloCard={"¡Bienvenidos a LibreAndo!"}
+                classNameDescripcionCard={"order-2"}
                 textoDescripcionCard={
                     "En LibreAndo, nuestro compromiso es brindar un apoyo integral a las personas, fomentando el bienestar emocional y el desarrollo de habilidades en un ambiente cálido y ameno."
                 }
