@@ -5,8 +5,7 @@ import './home.css'
 import Presentacion from "../../components/Cards"
 // Imagenes
 import imgPresentacion from "../../imagenes/presentacion-image.jpg";
-import CarouselSwiper from "./secciones/CarouselSwiper";
-import { getImgStorage } from "../../helper/imgStorage";
+import CarouselSwiper from "./secciones/CarouselSwiper"
 
 function Home() {
 
