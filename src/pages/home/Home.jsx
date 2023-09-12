@@ -6,12 +6,13 @@ import Presentacion from "../../components/Cards"
 // Imagenes
 import imgPresentacion from "../../imagenes/presentacion-image.jpg";
 import CarouselSwiper from "./secciones/CarouselSwiper";
+import { getImgStorage } from "../../helper/imgStorage";
 
 function Home() {
 
     const galeriaImg = [
         {
-            tituloPlantilla: "Galeria // Nuestra Institución",
+            tituloPlantilla: "Nuestra Institución",
             SwiperCarousel: [
                 { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
                 { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
@@ -39,11 +40,11 @@ function Home() {
                 }
             />
             <Presentacion
-                classNameImagenCard={"order-1"}
+                classNameImagenCard={"order-2"}
                 imgCard={imgPresentacion}
                 altImagenCard={"Imagen de Presentación"}
                 tituloCard={"¡Bienvenidos a LibreAndo!"}
-                classNameDescripcionCard={"order-2"}
+                classNameDescripcionCard={"order-1"}
                 textoDescripcionCard={
                     "En LibreAndo, nuestro compromiso es brindar un apoyo integral a las personas, fomentando el bienestar emocional y el desarrollo de habilidades en un ambiente cálido y ameno."
                 }
