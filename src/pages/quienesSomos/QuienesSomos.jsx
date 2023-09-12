@@ -4,6 +4,7 @@ import './QuienesSomos.css'
 // Componentes
 import Cards from '../../components/Cards'
 import imgQuienesSomos from '../../imagenes/presentacion-image.jpg'
+import Miembros from './Miembros'
 
 
 function QuienesSomos() {
@@ -40,6 +41,7 @@ function QuienesSomos() {
           }
         />
       </section>
+      <Miembros/>
     </div>
   )
 }

@@ -6,20 +6,14 @@ import Presentacion from "../../components/Cards"
 // Imagenes
 import imgPresentacion from "../../imagenes/presentacion-image.jpg";
 import CarouselSwiper from "./secciones/CarouselSwiper"
+import { imgSrc } from "./ImgSrc";
 
 function Home() {
 
     const galeriaImg = [
         {
             tituloPlantilla: "Nuestra Institución",
-            SwiperCarousel: [
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen1' },
-                { imagenSwiper: `${imgPresentacion}`, altSwiper: 'imagen2' },
-            ]
+            SwiperCarousel: imgSrc
         },
     ]
 
