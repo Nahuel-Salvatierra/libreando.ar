@@ -1,6 +1,6 @@
 import React from "react";
 
-function Presentacion({classNameImagenCard, imgCard, altImagenCard, tituloCard, classNameDescripcionCard, textoDescripcionCard}) {
+function CartaMain({classNameImagenCard, imgCard, altImagenCard, tituloCard, classNameDescripcionCard, textoDescripcionCard}) {
     return (
         <>
             <div className="container d-flex justify-content-center mt-4">
@@ -35,4 +35,4 @@ function Presentacion({classNameImagenCard, imgCard, altImagenCard, tituloCard, 
     );
 }
 
-export default Presentacion;
+export default CartaMain;

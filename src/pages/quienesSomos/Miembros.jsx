@@ -1,4 +1,6 @@
-import React from 'react';
+import React from "react";
+import CartaMiembros from "./CartaMiembros";
+import miembroUno from "./../../imagenes/miembros/178771976_190419362998884_9181539605956965169_n.jpg";
 
 function Miembros() {
     return (
@@ -7,33 +9,26 @@ function Miembros() {
                 <div className="container px-5 my-5">
                     <div className="text-center">
                         <h2 className="fw-bolder">Nuestro equipo</h2>
-                        <p className="lead fw-normal text-muted mb-5">Creando sonrisas detrás de escena.</p>
+                        <p className="lead fw-normal text-muted mb-5">
+                            Creando sonrisas detrás de escena.
+                        </p>
                     </div>
-                    <div className="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
-                        <div className="col mb-5 mb-sm-0">
-                            <div className="text-center">
-                                <img className="img-fluid rounded-circle mb-4 px-4 members"
-                                    src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                                <h5 className="fw-bolder">Gabriel Soria</h5>
-                                <div className="fst-italic text-muted">Psicologo</div>
-                            </div>
-                        </div>
-                        <div className="col mb-5">
-                            <div className="text-center">
-                                <img className="img-fluid rounded-circle mb-4 px-4"
-                                    src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                                <h5 className="fw-bolder">Gabriel Soria</h5>
-                                <div className="fst-italic text-muted">Psicologo</div>
-                            </div>
-                        </div>
-                        <div className="col mb-5">
-                            <div className="text-center">
-                                <img className="img-fluid rounded-circle mb-4 px-4"
-                                    src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                                <h5 className="fw-bolder">Gabriel Soria</h5>
-                                <div className="fst-italic text-muted">Psicologo</div>
-                            </div>
-                        </div>
+                    <div className="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center ">
+                        <CartaMiembros
+                            imagen={miembroUno}
+                            nombre={"Gabriel"}
+                            titulo={"Psicologo"}
+                        />
+                        <CartaMiembros
+                            imagen={miembroUno}
+                            nombre={"Gabriel"}
+                            titulo={"Psicologo"}
+                        />
+                        <CartaMiembros
+                            imagen={miembroUno}
+                            nombre={"Gabriel"}
+                            titulo={"Psicologo"}
+                        />
                     </div>
                 </div>
             </section>

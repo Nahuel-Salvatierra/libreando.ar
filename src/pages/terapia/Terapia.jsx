@@ -33,10 +33,15 @@ function Terapia() {
     return (
         <div>
             <section className="bg-body-tertiary">
-                <div className="row p-5 text-center text-xl-end align-items-center  justify-content-sm-center">
+                <div className="row p-5 text-center text-xl-start align-items-center justify-content-sm-center">
+                <img
+                    className="col-md-4 col-sm-8 col-xl-3 p-4 rounded-circle"
+                    src={ImgenTerapias}
+                    alt=""
+                />
                     <div className="col-12 col-sm-8 justify-items-center">
                         <h1 className="text-body-emphasis">Tratamientos</h1>
-                        <p className="fs-5 text-muted">
+                        <p className="fs-5 text-muted fs-xl-1">
                             En nuestra práctica de profesional, nos dedicamos a
                             proporcionar atención clínica y acompañamiento
                             terapéutico para niños, niñas, adolescentes y
@@ -47,11 +52,7 @@ function Terapia() {
                             encontrar soluciones efectivas.
                         </p>
                     </div>
-                    <img
-                    className="col-md-4 col-sm-12 col-xl-3 col-4 p-4 rounded-circle"
-                    src={ImgenTerapias}
-                    alt=""
-                />
+
                 </div>
                 
             </section>
