@@ -1,6 +1,6 @@
 import React from "react";
 import Acordeon from "../../components/acordeon/Acordeon";
-import ImgenTerapias from "./../../imagenes/taller/WhatsApp Image 2023-09-06 at 5.45.36 PM.jpeg";
+import ImgenTerapias from "../../imagenes/La-influencia-de-la-salud-mental-para-el-bienestar-de-las-personas.jpeg";
 function Terapia() {
     const acordeonData = [
         {
