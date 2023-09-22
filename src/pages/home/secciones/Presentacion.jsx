@@ -8,7 +8,7 @@ export default function Presentacion(props) {
                             <h1 className="display-5 fw-bolder mb-2">
                                 ¡Bienvenidos a LibreAndo!
                             </h1>
-                            <p className="lead fw-normal mb-4">
+                            <p className="lead fw-normal fs-2 pb-4">
                                 En LibreAndo, nuestro compromiso es brindar un
                                 apoyo integral a las personas, fomentando el
                                 bienestar emocional y el desarrollo de

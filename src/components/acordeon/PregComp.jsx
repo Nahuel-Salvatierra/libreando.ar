@@ -1,5 +1,7 @@
 import React from 'react';
 import './Acordeon.css'
+import ButtonLink from './../../components/bottones/BotonLink'
+import { WHATSAPP } from '../../common/constantes';
 
 function PregComp({ id, tituloPregunta, descripcionRespuesta, abierto, onToggle }) {
     const collapseId = `collapse-${id}`; // Generar un identificador único para el colapso
@@ -17,9 +19,12 @@ function PregComp({ id, tituloPregunta, descripcionRespuesta, abierto, onToggle 
                 </button>
             </h3>
             <div className={`accordion-collapse collapse ${abierto ? 'show' : ''}`} id={collapseId}>
-                <div className="accordion-body bg-light">
-                    {descripcionRespuesta}
+                <div className="accordion-body bg-light fs-5">
+                    {descripcionRespuesta}{' '}
+                    
+                    
                 </div>
+                <div className='p-3 bg-light'><ButtonLink texto={'pedir Turno'} link={WHATSAPP}/></div>
             </div>
         </div>
     );

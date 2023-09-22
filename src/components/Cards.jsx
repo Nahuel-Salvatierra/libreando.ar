@@ -1,31 +1,29 @@
 import React from "react";
+import ButonRuta from './../components/bottones/BotonRuta'
 
-function CartaMain({classNameImagenCard, imgCard, altImagenCard, tituloCard, classNameDescripcionCard, textoDescripcionCard}) {
+function CartaMain(props) {
+
     return (
         <>
             <div className="container d-flex justify-content-center mt-4">
                 <div className="card mb-3 rounded-4">
                     <div className="row g-0 ">
-                        <div className={`col-md-6 ${classNameImagenCard}`}>
+                        <div className={`col-md-6 ${props.classNameImagenCard}`}>
                             <img
-                                src={imgCard}
+                                src={props.imgCard}
                                 className="img-fluid rounded-start"
-                                alt={`${altImagenCard}`}
+                                alt={`${props.altImagenCard}`}
                             />
                         </div>
-                        <div className={`col-md-6 ${classNameDescripcionCard}`}>
+                        <div className={`col-md-6 ${props.classNameDescripcionCard}`}>
                             <div className="card-body">
                                 <h3 className="card-title">
-                                    {tituloCard}
+                                    {props.tituloCard}
                                 </h3>
                                 <p className="card-text fs-5  fs-xl-1">
-                                    {textoDescripcionCard}
+                                    {props.textoDescripcionCard}
                                 </p>
-                                <p className="card-text">
-                                    <small className="text-body-secondary">
-                                        Equipo Libreando
-                                    </small>
-                                </p>
+                                <ButonRuta btnTexto={props.btnTexto} btnRuta={props.btnRuta}/>
                             </div>
                         </div>
                     </div>
