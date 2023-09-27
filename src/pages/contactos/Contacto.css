@@ -14,6 +14,7 @@
 @media (max-width: 1199px) {
     
     .bg-total-contacto{
+        padding: 20px 0px;
         background-color: #f8f9fa !important;
     }
     .caja-contenido {
