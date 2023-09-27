@@ -36,6 +36,7 @@ function QuienesSomos() {
                     textoDescripcionCard={
                         "En LibreAndo, ofrecemos una amplia gama de talleres y servicios terapéuticos diseñados para abordar diversas necesidades y desafíos. Ya sea que estés buscando mejorar tus habilidades de afrontamiento, fortalecer tus relaciones interpersonales o explorar tu bienestar emocional, nuestro equipo terapéutico altamente calificado está aquí para guiarte en cada paso del camino."
                     }
+                    mostrarBoton= {false}
                 />
 
                 <Cards
@@ -47,6 +48,7 @@ function QuienesSomos() {
                     textoDescripcionCard={
                         "Contamos con un equipo de profesionales dedicados y apasionados que están comprometidos con tu bienestar. Cada miembro de nuestro equipo posee una amplia experiencia y conocimientos en su campo, y trabaja de manera colaborativa para brindarte el apoyo que necesitas. En LibreAndo, creemos en la fuerza de la comunidad y en la capacidad de cada individuo para transformar sus vidas."
                     }
+                    mostrarBoton= {false}
                 />
             </section>
             <Miembros />

@@ -2,7 +2,7 @@ import React from "react";
 import ButonRuta from './../components/bottones/BotonRuta'
 
 function CartaMain(props) {
-
+    const mostrarBoton = props.mostrarBoton
     return (
         <>
             <div className="container d-flex justify-content-center mt-4">
@@ -23,7 +23,7 @@ function CartaMain(props) {
                                 <p className="card-text fs-5  fs-xl-1">
                                     {props.textoDescripcionCard}
                                 </p>
-                                <ButonRuta btnTexto={props.btnTexto} btnRuta={props.btnRuta}/>
+                                {mostrarBoton && <ButonRuta btnTexto={props.btnTexto} btnRuta={props.btnRuta}/>}
                             </div>
                         </div>
                     </div>
