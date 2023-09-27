@@ -1,0 +1,90 @@
+@media (max-width: 1980px) {
+    .bg-total-contacto{
+        background-color: white !important;
+    }
+
+    .google-form {
+        width: 640px;
+        /* Establece el ancho del iframe al 100% del contenedor */
+        height: 759px;
+        /* Establece la altura deseada para el iframe */
+    }
+}
+
+@media (max-width: 1199px) {
+    
+    .bg-total-contacto{
+        background-color: #f8f9fa !important;
+    }
+    .caja-contenido {
+        margin-left: 45px;
+    }
+    .google-form {
+        width: 650px;
+        /* Establece el ancho del iframe al 100% del contenedor */
+        height: 491px;
+        /* Establece la altura deseada para el iframe */
+        
+    }
+}
+
+/* Estilos para tamaños de pantalla medianos (md) y más pequeños */
+@media (max-width: 991px) {
+
+    .caja-contenido {
+        margin: 0;
+    }
+    .google-form {
+        width: 650px;
+        /* Establece el ancho del iframe al 100% del contenedor */
+        height: 587px;
+        /* Establece la altura deseada para el iframe */
+    }
+}
+
+@media (max-width: 912px) and (min-height: 1368px) {
+    .google-form {
+        width: 650px;
+        /* Establece el ancho del iframe al 100% del contenedor */
+        height: 1024px;
+        /* Establece la altura deseada para el iframe */
+    }
+}
+
+@media (max-width: 820px) and (min-height: 1180px) {
+    .google-form {
+        width: 650px;
+        /* Establece el ancho del iframe al 100% del contenedor */
+        height: 836px;
+        /* Establece la altura deseada para el iframe */
+    }
+}
+
+/* Estilos para tamaños de pantalla pequeños (sm) y más pequeños */
+@media (max-width: 767px) {
+    .google-form {
+        width: 100%;
+        /* Establece el ancho del iframe al 100% del contenedor */
+        height: 536px;
+        /* Establece la altura deseada para el iframe */
+    }
+}
+
+@media (max-width: 768px) and (min-height: 1024px) {
+    .google-form {
+        width: 650px;
+        /* Establece el ancho del iframe al 100% del contenedor */
+        height: 680px;
+        /* Establece la altura deseada para el iframe */
+    }
+}
+
+/* Estilos para tamaños de pantalla extra pequeños (xs) */
+@media (max-width: 575px) {
+    .google-form {
+        width: 100%;
+        /* Establece el ancho del iframe al 100% del contenedor */
+        height: 536px;
+        /* Establece la altura deseada para el iframe */
+    }
+}
