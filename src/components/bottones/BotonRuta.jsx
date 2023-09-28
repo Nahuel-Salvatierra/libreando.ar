@@ -8,11 +8,11 @@ export default function BotonRuta(props) {
   return (
     <>
       <Link to={props.btnRuta} onClick={handleLinkClick}>
-        <button class="button learn-more">
-          <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
+        <button className="button learn-more">
+          <span className="circle" aria-hidden="true">
+            <span className="icon arrow"></span>
           </span>
-          <span class="button-text">{props.btnTexto}</span>
+          <span className="button-text">{props.btnTexto}</span>
         </button>
       </Link>
     </>
