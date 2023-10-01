@@ -5,7 +5,7 @@ import "./home.css";
 import CartaMain from "../../components/Cards";
 import Presentacion from "./secciones/Presentacion";
 // Imagenes
-import imgPresentacion from "../../imagenes/presentacion-image.jpg";
+import imgPresentacion from "../../imagenes/alumnos/383821858_984326632846690_3348536675621121014_n.jpeg";
 import CarouselSwiper from "./secciones/CarouselSwiper";
 import imgPromoTaller from "../../imagenes/taller/WhatsApp Image 2023-09-06 at 5.45.35 PM.jpeg";
 import { imgSrc } from "./ImgSrc";

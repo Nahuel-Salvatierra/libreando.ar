@@ -3,8 +3,10 @@ import React from "react";
 import "./QuienesSomos.css";
 // Componentes
 import Cards from "../../components/Cards";
-import imgQuienesSomos from "../../imagenes/presentacion-image.jpg";
+import imgQuienesSomos from "../../imagenes/miembros/hernandez-psicologos.jpg";
+import imgTalleres from './../../videos/Snapinsta.app_video_10000000_838606020944698_4477998613101165365_n.mp4'
 import Miembros from "./Miembros";
+import CardVideo from './../../components/cartas/card.video'
 
 function QuienesSomos() {
     return (
@@ -27,9 +29,9 @@ function QuienesSomos() {
                     </div>
                 </div>
                 {/* Nuestra mision */}
-                <Cards
+                <CardVideo
                     classNameImagenCard={"order-1"}
-                    imgCard={imgQuienesSomos}
+                    imgCard={imgTalleres}
                     altImagenCard={"Imagen de Presentación"}
                     tituloCard={"Nuestra Misión"}
                     classNameDescripcionCard={"order-2"}

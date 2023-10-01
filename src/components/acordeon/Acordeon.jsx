@@ -20,9 +20,9 @@ function Acordeon({ tituloAcordeones, PregRta, textoOpcional, classDNoneAcordeon
 
     return (
         <>
-            <h2 className="fw-bolder m-0 mb-2 p-2 fs-1 ps-4">{tituloAcordeones}</h2>
+            <h2 className="fw-bolder m-0 p-2 fs-1 ps-4 pt-5">{tituloAcordeones}</h2>
             <div className='fs-6 border bg-light rounded-bottom-1'>
-                <div className={`${classTextoOpcional}`}>
+                <div className={`${classTextoOpcional} fs-5`}>
                     {textoOpcional}
                 </div>
                 <div className={`accordion ${verMas ? "" : classDNoneAcordeon}`} >

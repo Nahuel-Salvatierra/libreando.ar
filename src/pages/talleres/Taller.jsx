@@ -2,7 +2,7 @@ import React from "react";
 import CarouselX3 from "./CarouselX3";
 import TallerHeader from "./TallerHeader";
 import { WHATSAPP } from "./../../common/constantes";
-import BotonLink from '../../components/bottones/BotonLink'
+import BotonLink from '../../components/botones/BotonLink'
 
 function Taller(props) {
   return (

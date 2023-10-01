@@ -195,3 +195,7 @@
  .button:hover .button-text {
   color: #fff;
  }
+
+ .border-none {
+  border: none !important;
+ }

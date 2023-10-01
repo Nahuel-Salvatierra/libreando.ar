@@ -1,21 +1,21 @@
 import React from "react";
-import ButonRuta from './../components/bottones/BotonRuta'
+import BotonRuta from './botones/BotonRuta'
 
 function CartaMain(props) {
     const mostrarBoton = props.mostrarBoton
     return (
         <>
             <div className="container d-flex justify-content-center mt-4">
-                <div className="card mb-3 rounded-4">
+                <div className="mb-3 rounded-4 card border-none">
                     <div className="row g-0 ">
-                        <div className={`col-md-6 ${props.classNameImagenCard}`}>
+                        <div className={`col-lg-6 ${props.classNameImagenCard}`}>
                             <img
                                 src={props.imgCard}
-                                className="img-fluid rounded-start"
+                                className="img-fluid rounded-4"
                                 alt={`${props.altImagenCard}`}
                             />
                         </div>
-                        <div className={`col-md-6 ${props.classNameDescripcionCard}`}>
+                        <div className={`col-lg-6 ${props.classNameDescripcionCard}`}>
                             <div className="card-body">
                                 <h3 className="card-title">
                                     {props.tituloCard}
@@ -23,7 +23,7 @@ function CartaMain(props) {
                                 <p className="card-text fs-5  fs-xl-1">
                                     {props.textoDescripcionCard}
                                 </p>
-                                {mostrarBoton && <ButonRuta btnTexto={props.btnTexto} btnRuta={props.btnRuta}/>}
+                                {mostrarBoton && <BotonRuta btnTexto={props.btnTexto} btnRuta={props.btnRuta}/>}
                             </div>
                         </div>
                     </div>
