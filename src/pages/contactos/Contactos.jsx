@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contacto.css";
+import { WHATSAPP, WHATSAPPTEL } from "../../common/constantes";
 
 function Contactos() {
   return (
@@ -12,22 +13,22 @@ function Contactos() {
               <div className="card-body bg-white rounded-3 py-4 p-xl-4 py-lg-5">
                 <div className="d-flex caja-contenido align-items-center justify-content-center">
                   <div className="text-center">
-                    <p className="text-muted mb-4">
-                      Contactanos
-                      <br />
+                    <h4 className="text-muted mb-4">
+                    Contactanos
+                    </h4>
                       <div>
-                        <a href="#!">equipolibreando@gmail.com</a>
+                        <a href="mailto:equipolibreando@gmail.com">equipolibreando@gmail.com</a>
                       </div>
                       <div>
                         <a
                           className="fs-5 px-2 link-dark text-decoration-none"
-                          href="https://wa.me/541139004966"
+                          href={WHATSAPP}
                         >
                           <i className="bi-whatsapp"></i>
-                          &nbsp;541139004966
+                          &nbsp;{WHATSAPPTEL}
                         </a>
                       </div>
-                    </p>
+
                     <div className="h6 fw-bolder">Síguenos!</div>
                     <a
                       className="fs-5 px-2 link-dark text-decoration-none"
@@ -46,9 +47,9 @@ function Contactos() {
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSc0MDWX-Z9lc5-L32x5Tct8JTzAmWLSR9vJjZSAB1KT0yL9mg/viewform?embedded=true"
               className="google-form"
-              frameborder="0"
-              marginheight="0"
-              marginwidth="0"
+              frameBorder="0"
+              marginHeight="0"
+              marginWidth="0"
             >
               Cargando…
             </iframe>
