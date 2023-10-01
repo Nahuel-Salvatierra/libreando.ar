@@ -23,6 +23,9 @@ function Home() {
       {/* Card de Imagenes */}
 
       <Presentacion img={imgPresentacion} />
+      <br />
+      <br />
+      <br />
       <CartaMain
         btnTexto={"Ver más"}
         btnRuta={"/talleres"}
@@ -37,6 +40,9 @@ function Home() {
           "Explora un mundo de crecimiento personal y bienestar emocional a través de nuestros talleres especializados. Conducidos por expertos en psicología, nuestros programas te ayudarán a desarrollar habilidades clave y a explorar tu creatividad de una manera única. Aprovecha esta oportunidad para invertir en ti mismo y transformar tu vida."
         }
       />
+      <br />
+      <br />
+      <br />
       <CartaMain
         btnTexto={"Ver más"}
         btnRuta={"/terapia"}

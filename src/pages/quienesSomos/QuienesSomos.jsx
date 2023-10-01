@@ -40,6 +40,9 @@ function QuienesSomos() {
                     }
                     mostrarBoton= {false}
                 />
+                <br/>
+                <br/>
+                <br />
 
                 <Cards
                     classNameImagenCard={"order-2"}

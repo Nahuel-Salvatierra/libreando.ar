@@ -33,11 +33,11 @@ function Terapia() {
     return (
         <div>
             <section className="bg-body-tertiary">
-                <div className="row p-5 text-center text-xl-start align-items-center justify-content-sm-center">
+                <div className="row pt-3 text-center text-xl-start align-items-center justify-content-sm-center">
                 <img
                     className="col-md-4 col-sm-8 col-xl-3 p-4 rounded-circle"
                     src={ImgenTerapias}
-                    alt=""
+                    alt="dos personas se sostienen de la mano"
                 />
                     <div className="col-12 col-sm-8 justify-items-center">
                         <h1 className="text-body-emphasis">Tratamientos</h1>
@@ -56,8 +56,8 @@ function Terapia() {
                 </div>
                 
             </section>
-            <section className="py-5">
-                <div className="container px-5 my-5">
+            <section className="">
+                <div className="container px-5 py-5">
                     <div>
                         {/* Acordeones */}
                         {acordeonData.map((acordeon, index) => (
