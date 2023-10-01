@@ -21,11 +21,24 @@ function CarouselSwiper({ SwiperCarousel, tituloPlantilla, classTitulo }) {
                                 // install Swiper modules
                                 modules={[Navigation, Pagination, A11y]}
                                 spaceBetween={50}
-                                slidesPerView={3}
                                 navigation
                                 loop
                                 pagination={{ clickable: true, dynamicBullets: true }}
                                 className='texto-no-seleccionable'
+                                breakpoints={{
+                                    200: {
+                                        slidesPerView: 1,
+                                        spaceBetween: 10,
+                                    },
+                                    768: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 10,
+                                    },
+                                    992: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 50,
+                                    }
+                                }}
                             >
                                 {SwiperCarousel.map((imagenesSwiper, index) => (
                                     <SwiperSlide
