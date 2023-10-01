@@ -1,6 +1,6 @@
 import React from 'react';
 import './Acordeon.css'
-import ButtonLink from './../../components/bottones/BotonLink'
+import ButtonLink from '../botones/BotonLink'
 import { WHATSAPP } from '../../common/constantes';
 
 function PregComp({ id, tituloPregunta, descripcionRespuesta, abierto, onToggle }) {
