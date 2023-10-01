@@ -1,7 +1,4 @@
 @media (max-width: 1980px) {
-    .bg-total-contacto{
-        background-color: white !important;
-    }
 
     .google-form {
         width: 640px;
@@ -15,7 +12,6 @@
     
     .bg-total-contacto{
         padding: 20px 0px;
-        background-color: #f8f9fa !important;
     }
     .caja-contenido {
         margin-left: 45px;

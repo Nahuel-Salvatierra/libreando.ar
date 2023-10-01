@@ -27,8 +27,7 @@ function Nav() {
                                 <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
                                     <li><Link to="/terapia" className="dropdown-item">Terapia</Link></li>
                                     <li><Link to="/talleres" className="dropdown-item">Talleres</Link></li>
-                                    <li><Link to="/orientacion" className="dropdown-item">Orientación a padres</Link></li>
-                                    <li><Link to="/evaluacion" className="dropdown-item">Evaluación neuro-cognitiva</Link></li>
+                                    <li><Link to="/orientacion" className="dropdown-item">Servicios</Link></li>
                                 </ul>
                             </li>
                             {/* Contacto */}

@@ -10,7 +10,7 @@ import CardVideo from './../../components/cartas/card.video'
 
 function QuienesSomos() {
     return (
-        <div>
+        <section className="bg-light">
             <section className="container bg-light">
                 <div className="quienesSomos m-0 text-center pt-4 pb-4">
                     {/* Quienes Somos */}
@@ -57,7 +57,7 @@ function QuienesSomos() {
                 />
             </section>
             <Miembros />
-        </div>
+        </section>
     );
 }
 
