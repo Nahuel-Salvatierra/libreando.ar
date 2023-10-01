@@ -19,7 +19,7 @@ function Home() {
   ];
 
   return (
-    <>
+    <section className="bg-light">
       {/* Card de Imagenes */}
 
       <Presentacion img={imgPresentacion} />
@@ -27,13 +27,14 @@ function Home() {
       <br />
       <br />
       <CartaMain
+        mostrarBoton ={true}
         btnTexto={"Ver más"}
         btnRuta={"/talleres"}
         classNameImagenCard={"order-2"}
         imgCard={imgPromoTaller}
         altImagenCard={"Imagen de Presentación"}
         tituloCard={
-          "Descubre un Mejor Tú: Nuestros Exclusivos Talleres Te Esperan"
+          "Nuestros talleres te esperan"
         }
         classNameDescripcionCard={"order-1"}
         textoDescripcionCard={
@@ -44,6 +45,7 @@ function Home() {
       <br />
       <br />
       <CartaMain
+        mostrarBoton ={true}
         btnTexto={"Ver más"}
         btnRuta={"/terapia"}
         classNameImagenCard={"order-1"}
@@ -66,7 +68,7 @@ function Home() {
           />
         ))}
       </div>
-    </>
+    </section>
   );
 }
 
