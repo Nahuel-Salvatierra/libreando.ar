@@ -53,7 +53,7 @@ function Home() {
       <CartaMain
         mostrarBoton={true}
         btnTexto={"Ver más"}
-        btnRuta={"/talleres"}
+        btnRuta={"/terapia"}
         classNameImagenCard={"order-1"}
         imgCard={imgTalleres}
         altImagenCard={"Imagen de Presentación"}

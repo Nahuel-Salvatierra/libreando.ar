@@ -71,6 +71,29 @@ function QuienesSomos() {
       <Miembros />
     </section>
   );
+        <Cards
+          classNameImagenCard={"order-2"}
+          imgCard={imgQuienesSomos}
+          altImagenCard={"Imagen de Presentación"}
+          tituloCard={"Nuestro Equipo Terapéutico"}
+          classNameDescripcionCard={"order-1"}
+          textoDescripcionCard={
+            <>
+              Contamos con un equipo de profesionales dedicados y comprometidos
+              con el acompañamiento de cada persona y familia que asiste a
+              nuestro espacio. Cada miembro de nuestro equipo posee una amplia
+              experiencia y conocimientos en su campo. Llevamos la
+              interdisciplina y la grupalidad como bandera, entendiendo que el
+              trabajo colaborativo es el mejor camino hacia el desarrollo
+              personal.
+            </>
+          }
+          mostrarBoton={false}
+        />
+      </section>
+      <Miembros />
+    </section>
+  );
 }
 
 export default QuienesSomos;
