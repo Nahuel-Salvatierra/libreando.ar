@@ -9,9 +9,9 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import BotonRedesSociales from "./components/BotonRedesSociales";
 // Component
-import Terapia from "./pages/terapia/Terapia";
+import Terapia from "./pages/terapia/Tratamientos";
 import Servicios from "./pages/servicios/Servicios";
-import Home from "../src/pages/home/Home";
+import Home from "./pages/home/Home";
 import Talleres from "./pages/talleres/Talleres";
 import QuienesSomos from "./pages/quienesSomos/QuienesSomos";
 import Footer from "./components/footer/Footer";
@@ -29,11 +29,11 @@ function App() {
         </header>
 
         <main className="flex-shrink-0">
-          <Routes>
+          <Routes hashType='hashbang'>
             {/* Home */}
             <Route path="/" element={<Home />} />
             {/* Servicios                */}
-            <Route path="/terapia" element={<Terapia />} />
+            <Route path="/tratamientos" element={<Terapia />} />
             <Route path="/talleres" element={<Talleres />} />
             <Route path="/orientacion" element={<Servicios />} />
             <Route path="/evaluacion" element={<Servicios />} />

@@ -4,7 +4,7 @@ import BotonRuta from "./../botones/BotonRuta";
 export default function CardVideo(props) {
   const mostrarBoton = props.mostrarBoton;
   const videoRef = useRef(null);
-  const [volume, setVolume] = useState(0.01);
+  const [volume, setVolume] = useState(0.03);
 
   useEffect(() => {
     if (videoRef.current) {

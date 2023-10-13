@@ -5,15 +5,16 @@ import "./home.css";
 import CartaMain from "../../components/Cards";
 import Presentacion from "./secciones/Presentacion";
 // Imagenes
-import imgPresentacion from "../../imagenes/alumnos/383821858_984326632846690_3348536675621121014_n.jpeg";
+import imgPresentacion from "../../imagenes/Index Video.mp4";
 import CarouselSwiper from "./secciones/CarouselSwiper";
-import imgPromoTaller from "../../imagenes/taller/WhatsApp Image 2023-09-06 at 5.45.35 PM.jpeg";
+import imgTratamientos from "../../imagenes/Index Tratamientos.jpg";
+import imgTalleres from './../../imagenes/Index Talleres.jpg'
 import { imgSrc } from "./ImgSrc";
 
 function Home() {
   const galeriaImg = [
     {
-      tituloPlantilla: "Nuestra Institución",
+      tituloPlantilla: "Nuestro espacio ",
       SwiperCarousel: imgSrc,
     },
   ];
@@ -27,33 +28,47 @@ function Home() {
       <br />
       <br />
       <CartaMain
-        mostrarBoton ={true}
+        mostrarBoton={true}
         btnTexto={"Ver más"}
-        btnRuta={"/talleres"}
+        btnRuta={"/tratamientos"}
         classNameImagenCard={"order-2"}
-        imgCard={imgPromoTaller}
+        imgCard={imgTratamientos}
         altImagenCard={"Imagen de Presentación"}
-        tituloCard={
-          "Nuestros talleres te esperan"
-        }
+        tituloCard={"Tratamientos "}
         classNameDescripcionCard={"order-1"}
         textoDescripcionCard={
-          "Explora un mundo de crecimiento personal y bienestar emocional a través de nuestros talleres especializados. Conducidos por expertos en psicología, nuestros programas te ayudarán a desarrollar habilidades clave y a explorar tu creatividad de una manera única. Aprovecha esta oportunidad para invertir en ti mismo y transformar tu vida."
+          <>
+            En Libreando contamos con profesionales especializados en
+            Psicología, Psicopedagogía, Terapia Ocupacional y Estimulación
+            Temprana. Ofrecemos nuestros servicios a pacientes particulares y
+            con CUD (Certificado Único de Discapacidad).
+            <br />
+            ¡Te invitamos a conocer nuestro espacio y nuestras propuestas!
+          </>
         }
       />
       <br />
       <br />
       <br />
       <CartaMain
-        mostrarBoton ={true}
+        mostrarBoton={true}
         btnTexto={"Ver más"}
-        btnRuta={"/terapia"}
+        btnRuta={"/talleres"}
         classNameImagenCard={"order-1"}
-        imgCard={imgPresentacion}
+        imgCard={imgTalleres}
         altImagenCard={"Imagen de Presentación"}
         classNameDescripcionCard={"order-2"}
+        tituloCard={"Talleres"}
         textoDescripcionCard={
-          "En LibreAndo, nuestro compromiso es brindar un apoyo integral a las personas, fomentando el bienestar emocional y el desarrollo de habilidades en un ambiente cálido y ameno."
+          <>
+            Los espacio de talleres son oportunidades únicas para desarrollar
+            colaborativamente las habilidades personales. Proporcionamos a los
+            participantes distintas herramientas y estrategias necesarias para
+            desenvolverse mejor en los distintos desafíos presentes en la vida
+            cotidiana.
+            <br />
+            Te invitamos a conocer más nuestros espacios de talleres.
+          </>
         }
       />
 

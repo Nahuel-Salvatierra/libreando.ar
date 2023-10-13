@@ -29,7 +29,7 @@ function Contactos() {
                         </a>
                       </div>
 
-                    <div className="h6 fw-bolder">Síguenos!</div>
+                    
                     <a
                       className="fs-5 px-2 link-dark text-decoration-none"
                       href="https://www.instagram.com/equipolibreando/"
@@ -37,6 +37,7 @@ function Contactos() {
                       <i className="bi-instagram"></i>
                       &nbsp;equipolibreando
                     </a>
+                    <div className="h6 fw-bolder">¡Seguinos!</div>
                   </div>
                 </div>
               </div>

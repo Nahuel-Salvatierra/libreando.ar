@@ -58,6 +58,10 @@
   transition: all 1s ease;
   font-size: 30px;
 }
+/* Tratamientos */
+.tratamientos {
+  transform: rotate(-50deg);
+}
 
 .redes a:hover {
   background: white;

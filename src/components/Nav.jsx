@@ -9,7 +9,7 @@ function Nav() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-naranja  NAVBAR">
                 <div className="container px-5">
-                    <Link to="/" className="navbar-brand"> {/* Utiliza Link en lugar de 'a' para la navegación interna */}
+                    <Link to="/" className="navbar-brand">
                         <img src={logo} className='logo-libre-ando' alt="logo-LibreAndo" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -21,13 +21,15 @@ function Nav() {
 
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             {/* Ruta Servicios */}
+                            <Link to="/" className="navbar-brand"> <li className="nav-item">Inicio</li> </Link>
                             <li className="nav-item dropdown">
+                            
                                 <Link to="#" className="nav-link dropdown-toggle text-white pt-1 me-1" id="navbarDropdownBlog" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">Servicios</Link>
                                 <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><Link to="/terapia" className="dropdown-item">Terapia</Link></li>
+                                    <li><Link to="/tratamientos" className="dropdown-item">Tratamientos</Link></li>
                                     <li><Link to="/talleres" className="dropdown-item">Talleres</Link></li>
-                                    <li><Link to="/orientacion" className="dropdown-item">Servicios</Link></li>
+                                    <li><Link to="/orientacion" className="dropdown-item">Otros servicios</Link></li>
                                 </ul>
                             </li>
                             {/* Contacto */}

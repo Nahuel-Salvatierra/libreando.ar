@@ -1,8 +1,8 @@
-import img1 from "../../imagenes/taller/WhatsApp Image 2023-09-06 at 5.45.41 PM.jpeg";
-import img2 from "../../imagenes/taller/WhatsApp Image 2023-09-06 at 5.45.41 PM (3).jpeg";
-import img3 from "../../imagenes/taller/WhatsApp Image 2023-09-06 at 5.45.41 PM (2).jpeg";
-import img4 from "../../imagenes/taller/WhatsApp Image 2023-09-06 at 5.45.41 PM (1).jpeg";
-import img5 from "../../imagenes/taller/WhatsApp Image 2023-09-06 at 5.45.40 PM (1).jpeg";
+import img1 from "../../imagenes/taller/Index Nuestro espacio1.jpg";
+import img2 from "../../imagenes/taller/Index Nuestro Espacio.jpeg";
+import img3 from "../../imagenes/taller/Index Nuestro espacio2.jpg";
+import img4 from "../../imagenes/taller/Index Nuestro espacio3.jpg";
+import img5 from "../../imagenes/taller/Index Nuestro espacio4.jpeg";
 import img6 from "../../imagenes/taller/WhatsApp Image 2023-09-06 at 5.45.40 PM (3).jpeg";
 
 
