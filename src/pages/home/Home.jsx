@@ -27,33 +27,47 @@ function Home() {
       <br />
       <br />
       <CartaMain
-        mostrarBoton ={true}
+        mostrarBoton={true}
         btnTexto={"Ver más"}
         btnRuta={"/talleres"}
         classNameImagenCard={"order-2"}
         imgCard={imgPromoTaller}
         altImagenCard={"Imagen de Presentación"}
-        tituloCard={
-          "Nuestros talleres te esperan"
-        }
+        tituloCard={"Tratamientos "}
         classNameDescripcionCard={"order-1"}
         textoDescripcionCard={
-          "Explora un mundo de crecimiento personal y bienestar emocional a través de nuestros talleres especializados. Conducidos por expertos en psicología, nuestros programas te ayudarán a desarrollar habilidades clave y a explorar tu creatividad de una manera única. Aprovecha esta oportunidad para invertir en ti mismo y transformar tu vida."
+          <>
+            En Libreando contamos con profesionales especializados en
+            Psicología, Psicopedagogía, Terapia Ocupacional y Estimulación
+            Temprana. Ofrecemos nuestros servicios a pacientes particulares y
+            con CUD (Certificado Único de Discapacidad).
+            <br />
+            ¡Te invitamos a conocer nuestro espacio y nuestras propuestas!
+          </>
         }
       />
       <br />
       <br />
       <br />
       <CartaMain
-        mostrarBoton ={true}
+        mostrarBoton={true}
         btnTexto={"Ver más"}
-        btnRuta={"/terapia"}
+        btnRuta={"/tratamientos"}
         classNameImagenCard={"order-1"}
         imgCard={imgPresentacion}
         altImagenCard={"Imagen de Presentación"}
         classNameDescripcionCard={"order-2"}
+        tituloCard={"Talleres"}
         textoDescripcionCard={
-          "En LibreAndo, nuestro compromiso es brindar un apoyo integral a las personas, fomentando el bienestar emocional y el desarrollo de habilidades en un ambiente cálido y ameno."
+          <>
+            Los espacio de talleres son oportunidades únicas para desarrollar
+            colaborativamente las habilidades personales. Proporcionamos a los
+            participantes distintas herramientas y estrategias necesarias para
+            desenvolverse mejor en los distintos desafíos presentes en la vida
+            cotidiana.
+            <br />
+            Te invitamos a conocer más nuestros espacios de talleres.
+          </>
         }
       />
 
