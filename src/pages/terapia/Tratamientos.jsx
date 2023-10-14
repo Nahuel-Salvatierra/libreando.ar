@@ -90,7 +90,7 @@ function Tratamientos() {
           <div className="col-12 col-sm-8 justify-items-center">
             <h1 className="text-body-emphasis">Tratamientos</h1>
             <p className="fs-5 text-muted fs-xl-1">
-              En Libreando nos orientamos a la atención clínica y acompañamiento
+              En Libre Ando nos orientamos a la atención clínica y acompañamiento
               de niños/as, adolescentes y adultos/as. Nuestro equipo de
               profesionales ofrece diversos abordajes y especialidades para
               acompañar el desarrollo integral de cada persona de acuerdo a sus

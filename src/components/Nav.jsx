@@ -10,7 +10,7 @@ function Nav() {
             <nav className="navbar navbar-expand-lg navbar-dark bg-naranja  NAVBAR">
                 <div className="container px-5">
                     <Link to="/" className="navbar-brand">
-                        <img src={logo} className='logo-libre-ando' alt="logo-LibreAndo" />
+                        <img src={logo} className='logo-libre-ando' alt="logo-Libre Ando" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -32,10 +32,10 @@ function Nav() {
                                     <li><Link to="/orientacion" className="dropdown-item">Otros servicios</Link></li>
                                 </ul>
                             </li>
-                            {/* Contacto */}
-                            <Link to="/contacto" className="navbar-brand"> <li className="nav-item">Contacto</li> </Link>
                             {/* Quienes Somos */}
                             <Link to="/quienesSomos" className="navbar-brand"> <li className="nav-item">¿Quienes somos?</li> </Link>
+                            {/* Contacto */}
+                            <Link to="/contacto" className="navbar-brand"> <li className="nav-item">Contacto</li> </Link>
                         </ul>
                     </div>
                 </div>
@@ -45,9 +45,3 @@ function Nav() {
 }
 
 export default Nav
-// <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-//     <li><Link to="/psicologia" className="dropdown-item">Psicología</Link></li>
-//     <li><Link to="/psicopedagogia" className="dropdown-item">Psicopedagogía</Link></li>
-//     <li><Link to="/terapiaOcupacional" className="dropdown-item">Terapia Ocupacional</Link></li>
-//     <li><Link to="/estimulacionTemprana" className="dropdown-item">Estimulación Temprana</Link></li>
-// </ul>

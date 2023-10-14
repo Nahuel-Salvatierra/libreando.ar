@@ -16,7 +16,7 @@ function QuienesSomos() {
           <div>
             <h2 className="fs-1"> ¿Quienes somos?</h2>
             <p className="fs-4">
-              En <strong>LibreAndo</strong> ofrecemos una amplia gama de
+              En <strong>Libre Ando</strong> ofrecemos una amplia gama de
               servicios terapéuticos destinados a abordar diversas necesidades y
               desafíos. Ya sea que estés buscando mejorar tus habilidades de
               afrontamiento, fortalecer tus relaciones interpersonales o
@@ -35,7 +35,7 @@ function QuienesSomos() {
           classNameDescripcionCard={"order-2"}
           textoDescripcionCard={
             <>
-              Libreando nace como una propuesta alternativa a los dispositivos
+              Libre Ando nace como una propuesta alternativa a los dispositivos
               clínicos clásicos y rígidos. Nuestro espacio ofrece proyectos
               dinámicos, interdisciplinarios, individuales y grupales que buscan
               generar las condiciones necesarias para acompañar el desarrollo

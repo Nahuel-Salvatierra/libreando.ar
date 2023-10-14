@@ -7,7 +7,7 @@ export function Politicas() {
                 <strong>POLÍTICA DE PRIVACIDAD</strong>
             </h1>
             El presente Política de Privacidad establece los términos en que
-            Libreando usa y protege la información que es proporcionada por sus
+            Libre Ando usa y protege la información que es proporcionada por sus
             usuarios al momento de utilizar su sitio web. Esta compañía está
             comprometida con la seguridad de los datos de sus usuarios. Cuando
             le pedimos llenar los campos de información personal con la cual
@@ -43,7 +43,7 @@ export function Politicas() {
             que usted proporcione y podrán ser cancelados en cualquier momento.
             <br></br>
             <br></br>
-            Libreando está altamente comprometido para cumplir con el compromiso
+            Libre Ando está altamente comprometido para cumplir con el compromiso
             de mantener su información segura. Usamos los sistemas más avanzados
             y los actualizamos constantemente para asegurarnos que no exista
             ningún acceso no autorizado.
@@ -103,7 +103,7 @@ export function Politicas() {
             que sea requerido por un juez con un orden judicial.
             <br></br>
             <br></br>
-            Libreando Se reserva el derecho de cambiar los términos de la
+            Libre Ando Se reserva el derecho de cambiar los términos de la
             presente Política de Privacidad en cualquier momento.
         </div>
     );

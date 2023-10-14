@@ -18,10 +18,10 @@ export default function Presentacion(props) {
           <div className="col-lg-8 col-xl-7 col-xxl-6 ">
             <div className="my-5 text-center text-xl-start">
               <h1 className="display-5 fw-bolder mb-2">
-                ¡Bienvenidos a LibreAndo!
+                ¡Bienvenidos a Libre Ando!
               </h1>
               <p className="lead fw-normal fs-2 pb-4">
-                Libreando es un equipo terapéutico interdisciplinario
+                Libre Ando es un equipo terapéutico interdisciplinario
                 comprometido con brindar un apoyo integral a las personas,
                 fomentando el bienestar emocional y el desarrollo de las
                 potencialidades de cada persona en un ambiente cálido y ameno.
@@ -38,7 +38,7 @@ export default function Presentacion(props) {
               }}
               className="rounded"
               src={props.img}
-              alt="chicos sonriendo y el texto libreando"
+              alt="chicos sonriendo y el texto libre ando"
             />
           </div>
         </div>

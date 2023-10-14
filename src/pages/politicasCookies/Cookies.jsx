@@ -65,7 +65,7 @@ export function Cookies() {
             </p>
             <h3>Cookies de redes sociales</h3>
             <p>
-                Libreando incorpora plugins de redes sociales, que permiten
+                Libre Ando incorpora plugins de redes sociales, que permiten
                 acceder a las mismas a partir del Sitio Web. Por esta razón, las
                 cookies de redes sociales pueden almacenarse en el navegador del
                 Usuario. Los titulares de dichas redes sociales disponen de sus

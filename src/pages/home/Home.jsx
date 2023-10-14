@@ -38,7 +38,7 @@ function Home() {
         classNameDescripcionCard={"order-1"}
         textoDescripcionCard={
           <>
-            En Libreando contamos con profesionales especializados en
+            En Libre Ando contamos con profesionales especializados en
             Psicología, Psicopedagogía, Terapia Ocupacional y Estimulación
             Temprana. Ofrecemos nuestros servicios a pacientes particulares y
             con CUD (Certificado Único de Discapacidad).
