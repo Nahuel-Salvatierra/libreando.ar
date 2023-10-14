@@ -1,0 +1,20 @@
+.servicios-acordeon {
+    margin-bottom: 12.7rem;
+}
+
+
+@media (min-width: 1200px) {
+    .servicios-acordeon {
+        margin-bottom: 17.9rem;
+    }
+}
+@media (max-width: 991px) {
+    .servicios-acordeon {
+        margin-bottom: 9.6rem;
+    }
+}
+@media (max-width: 767px) {
+    .servicios-acordeon {
+        margin-bottom: 3.6rem;
+    }
+}

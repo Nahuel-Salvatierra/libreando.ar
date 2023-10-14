@@ -1,4 +1,7 @@
 import React from "react";
+// Css
+import "./Servicios.css"
+// Componentes
 import Acordeon from "../../components/acordeon/Acordeon";
 
 function Servicio() {
@@ -11,44 +14,33 @@ function Servicio() {
       classDNoneAcordeon: "d-block",
       PregRta: [
         {
+          tituloPregunta: "Evaluación Neurocognitiva",
+          descripcionRespuesta:
+            " La evaluación neurocognitiva es un proceso evaluativo destinado a personas de todas las edades. A partir de la implementación de una batería de instrumentos diagnósticos, podemos brindar diagnósticos precisos que destacan fortalezas y áreas de mejora en el funcionamiento neurocognitivo de cada persona. Los resultados obtenidos guían nuestras recomendaciones para impulsar el desarrollo cognitivo y el crecimiento personal en ámbitos educativos, sociales y emocionales. No dudes en contactarnos para solicitar tu turno para comenzar con este proceso.",
+        },
+        
+        {
           tituloPregunta:
-            "Diagnósticos y Comprensión de Necesidades Específicas",
+            "Orientación a Padres y Madres",
           descripcionRespuesta:
-            "Nuestro equipo de profesionales está capacitado para brindar diagnósticos precisos y comprensivos que ayuden a identificar las necesidades individuales de cada niño/a. Nos enfocamos en comprender sus fortalezas y desafíos, lo que nos permite diseñar planes de intervención adaptados a sus requerimientos únicos.",
+            "En Libre ando comprendemos los desafíos diarios de la crianza de niños y niñas. Problemáticas tales como comportamiento disruptivo, falta de límites saludables o dificultades en la comunicación familiar son algunos de los tantos motivos para realizar una consulta. Ofrecemos espacios de orientación a padres para acompañar en la implementación de recursos y herramientas destinadas al abordaje específico de las dificultades presentes en el ámbito hogareño y social. Contactanos para solicitar un turno y comenzar a acompañarte en la construcción de un ambiente familiar armonioso para el desarrollo saludable de tu hijo o hija.",
         },
+    
         {
-          tituloPregunta: "Trabajos sobre Límites",
+          tituloPregunta: "Diagnósticos y Certificado Único de Discapacidad",
           descripcionRespuesta:
-            " La crianza con límites claros y saludables es fundamental para el desarrollo emocional y social de los niños/as. Nuestros especialistas trabajan con los padres para establecer estrategias efectivas de limitación y promover una disciplina positiva, respetuosa y consistente. Crianza Responsable y Comportamiento Disruptivo: Nuestra orientación a padres incluye asesoramiento sobre cómo afrontar y manejar comportamientos disruptivos en los niños/as. Brindamos técnicas y enfoques probados para abordar desafíos conductuales y promover una crianza responsable que fomente el bienestar y la conexión emocional.",
-        },
-        {
-          tituloPregunta: "Certificado Único de Discapacidad",
-          descripcionRespuesta:
-            "Si tu hijo/a presenta alguna discapacidad, te acompañamos en el proceso de obtención del Certificado Único de Discapacidad (CUD), proporcionando la orientación y el asesoramiento necesario para acceder a los beneficios y recursos disponibles. Nuestra orientación a padres busca fortalecer la relación con tus hijos/as y empoderarte con las herramientas necesarias para criar de manera responsable y amorosa. Si necesitas apoyo en alguna de estas áreas o tienes dudas adicionales, no dudes en comunicarte con nuestro equipo. Estamos aquí para acompañarte en esta hermosa travesía de la crianza.",
+            "Nuestro equipo ofrece acompañamiento personalizado para la evaluación de las necesidades y dificultades neurocognitivas de tu hijo/a. En caso de arribar a un diagnóstico que implique la necesidad de apoyos y dispositivos específicos para acompañar su trayectoria vital, te brindaremos la asistencia necesaria para la obtención del Certificado Único de Discapacidad (CUD). Te proporcionamos la orientación necesaria para acceder a los beneficios y recursos disponibles. El diagnóstico es el primer paso para el abordaje y la implementación de las herramientas indispensables para el desarrollo de tu hijo/a. No dudes en consultarnos, estamos para acompañarte en este proceso.",
         },
       ],
       mostrarBotonVerMas: false,
       classContenedorButton: "p-4",
       classButtonAcordeon: "p-2",
     },
-    {
-      tituloAcordeones: "Evaluación neurocognitiva",
-      textoOpcional:'Nuestra evaluación neurocognitiva, basada en pruebas como el WISC-V, brinda diagnósticos precisos que destacan fortalezas y áreas de mejora en el funcionamiento intelectual. Estos resultados informados guían nuestras recomendaciones para impulsar el desarrollo cognitivo y el crecimiento personal en ámbitos educativos, sociales y emocionales',
-      classTextoOpcional: "p-4",
-      classDNoneAcordeon: "d-block",
-      PregRta: [
-        {
-          tituloPregunta: "¿Qué ofrece nuestra Evaluación cognitiva?",
-          descripcionRespuesta:
-            "Nuestra evaluación neurocognitiva ofrece un enfoque integral para comprender la capacidad intelectual de los individuos a través de pruebas como el WISC-V (Escala de Inteligencia de Wechsler para Niños). Mediante esta evaluación, obtenemos un diagnóstico preciso que nos permite identificar las fortalezas y áreas de mejora en el funcionamiento neurocognitivo de cada persona. Con resultados detallados, brindamos orientación y recomendaciones para promover un desarrollo cognitivo óptimo y apoyar el crecimiento personal en el ámbito educativo, social y emocional.",
-        },
-      ],
-    },
   ];
 
   return (
     <div>
-      <section className="">
+      <section className="servicios-acordeon">
         <div className="container px-5 my-5">
           <div>
             {/* Acordeones */}
