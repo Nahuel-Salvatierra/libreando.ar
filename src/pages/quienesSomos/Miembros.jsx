@@ -48,9 +48,6 @@ function Miembros() {
                             imagen={miembroDefault}
                             nombre={"Dana Velutti"}
                             titulo={"Lic. en Terapia Ocupacional"}
-                            imagen={miembroDefault}
-                            nombre={"Dana Velutti"}
-                            titulo={"Lic. en Terapia Ocupacional"}
                         />
                     </div>
                 </div>
