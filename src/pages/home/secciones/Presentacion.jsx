@@ -1,5 +1,4 @@
-import {React, useEffect, useState, useRef} from 'react'
-
+import { React, useEffect, useState, useRef } from "react";
 
 export default function Presentacion(props) {
   const mostrarBoton = props.mostrarBoton;
@@ -28,17 +27,19 @@ export default function Presentacion(props) {
               </p>
             </div>
           </div>
-          <div className="col-xl-5 col-xxl-6 d-xl-block col-10 pt-4 pb-4 ">
+          <div
+            className="col-xl-5 col-xxl-6 d-xl-block col-10 pt-4 pb-4 "
+          >
             <video
-              controls
               autoPlay
               ref={videoRef}
               onLoadedData={() => {
                 videoRef.current.volume = volume;
               }}
+              muted
               className="rounded"
               src={props.img}
-              alt="chicos sonriendo y el texto libre ando"
+              alt="video presentacion de instituto libreando mostrando el cartel de entrada y la pueta"
             />
           </div>
         </div>

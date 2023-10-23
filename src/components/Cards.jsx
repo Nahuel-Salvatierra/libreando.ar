@@ -11,7 +11,7 @@ function CartaMain(props) {
                         <div className={`col-lg-6 ${props.classNameImagenCard}`}>
                             <img
                                 src={props.imgCard}
-                                className="img-fluid rounded-4"
+                                className="img-fluid rounded"
                                 alt={`${props.altImagenCard}`}
                             />
                         </div>

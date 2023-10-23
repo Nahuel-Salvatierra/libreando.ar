@@ -4,15 +4,15 @@ import TallerUnoImg1 from "../../imagenes/talleres/Taller de Habilidades Sociale
 import TallerUnoImg2 from "../../imagenes/alumnos/WhatsApp Image 2023-09-21 at 4.41.18 PM (1).jpeg";
 import TallerUnoImg3 from "../../imagenes/alumnos/WhatsApp Image 2023-09-21 at 4.41.19 PM.jpeg";
 import TallerDosImg1 from "../../imagenes/talleres/Taller de Arteterapia.jpg"
-import TallerDosImg2 from "../../imagenes/alumnos/WhatsApp Image 2023-09-21 at 4.41.05 PM (1).jpeg";
-import TallerDosImg3 from "../../imagenes/alumnos/WhatsApp Image 2023-09-21 at 4.41.13 PM.jpeg";
+import TallerDosImg2 from "../../imagenes/talleres/Arteterapia 2.jpg";
+import TallerDosImg3 from "../../imagenes/talleres/Arteterapia 3.jpg";
 import TallerTresImg1 from "../../imagenes/talleres/Taller de Actividades de la Vida Diaria.jpg";
-import TallerTresImg2 from "../../imagenes/alumnos/WhatsApp Image 2023-09-21 at 4.41.17 PM (1).jpeg"
-import TallerTresImg3 from "../../imagenes/alumnos/WhatsApp Image 2023-09-21 at 4.41.18 PM.jpeg"
+import TallerTresImg2 from "../../imagenes/talleres/vida diaria 2.jpg"
+import TallerTresImg3 from "../../imagenes/talleres/Vida Diaria 3.jpg"
 
 function Talleres() {
   return (
-    <>
+    <div className="container">
       <Taller
         titulo={"Taller de Habilidades Sociales"}
         imagenTallerUno={TallerUnoImg1}
@@ -69,7 +69,7 @@ function Talleres() {
         }
         id={3}
       />
-    </>
+    </div>
   );
 }
 

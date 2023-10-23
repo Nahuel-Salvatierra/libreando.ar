@@ -4,7 +4,7 @@ import BotonRuta from "./../botones/BotonRuta";
 export default function CardVideo(props) {
   const mostrarBoton = props.mostrarBoton;
   const videoRef = useRef(null);
-  const [volume, setVolume] = useState(0.03);
+  const [volume, setVolume] = useState(0.01);
 
   useEffect(() => {
     if (videoRef.current) {
@@ -17,16 +17,19 @@ export default function CardVideo(props) {
         <div className="rounded-4 card border-none">
           <div className="row g-0 ">
             <div className={`col-lg-6 ${props.classNameImagenCard}`}>
-              <video 
+              <vid 
                 controls
-                autoPlay
                 ref={videoRef}
                 onLoadedData={() => {
                   videoRef.current.volume = volume;
                 }}
+                onDoubleClick={()=>{
+                  videoRef.current.volume = 0
+                }}
                 src={props.imgCard}
-                className="img-fluid rounded-4"
+                className="rounded-4"
                 alt={`${props.altImagenCard}`}
+                muted
               />
             </div>
             <div className={`col-lg-6 ${props.classNameDescripcionCard}`}>

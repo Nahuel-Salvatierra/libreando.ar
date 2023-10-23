@@ -5,7 +5,7 @@ import "./home.css";
 import CartaMain from "../../components/Cards";
 import Presentacion from "./secciones/Presentacion";
 // Imagenes
-import imgPresentacion from "../../imagenes/Index Video.mp4";
+import vidPresentacion from "../../videos/Index Video.mp4";
 import CarouselSwiper from "./secciones/CarouselSwiper";
 import imgTratamientos from "../../imagenes/Index Tratamientos.jpg";
 import imgTalleres from './../../imagenes/Index Talleres.jpg'
@@ -23,7 +23,7 @@ function Home() {
     <section className="bg-light">
       {/* Card de Imagenes */}
 
-      <Presentacion img={imgPresentacion} />
+      <Presentacion img={vidPresentacion} />
       <br />
       <br />
       <br />
@@ -31,11 +31,11 @@ function Home() {
         mostrarBoton={true}
         btnTexto={"Ver más"}
         btnRuta={"/tratamientos"}
-        classNameImagenCard={"order-2"}
+        classNameImagenCard={"order-1"}
         imgCard={imgTratamientos}
         altImagenCard={"Imagen de Presentación"}
         tituloCard={"Tratamientos "}
-        classNameDescripcionCard={"order-1"}
+        classNameDescripcionCard={"order-2"}
         textoDescripcionCard={
           <>
             En Libre Ando contamos con profesionales especializados en

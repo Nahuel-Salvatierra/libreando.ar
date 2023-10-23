@@ -4,7 +4,7 @@ import { WHATSAPP, WHATSAPPTEL } from "../../common/constantes";
 
 function Contactos() {
   return (
-    <section className="bg-light">
+    <section className="bg-light ">
       <div className="container ">
         {/* Formulario */}
         <div className="row ">
@@ -47,7 +47,7 @@ function Contactos() {
           <div className="col-xl-8 text-center order-2 order-xl-1">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSc0MDWX-Z9lc5-L32x5Tct8JTzAmWLSR9vJjZSAB1KT0yL9mg/viewform?embedded=true"
-              className="google-form"
+              className="google-form vh-100 col-12"
               frameBorder="0"
               marginHeight="0"
               marginWidth="0"
